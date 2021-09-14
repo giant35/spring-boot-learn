@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2021/9/14
  */
 @SpringBootApplication
-public class App {
+public class TodoApp {
     public static void main(String[] args) {
-        SpringApplication.run(App.class, args);
+        SpringApplication.run(TodoApp.class, args);
     }
 }

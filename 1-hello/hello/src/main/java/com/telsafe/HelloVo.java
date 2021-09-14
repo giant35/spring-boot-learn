@@ -4,11 +4,11 @@ package com.telsafe;
  * @author tangfh
  * @date 2021/9/14
  */
-public class HiVo {
+public class HelloVo {
     private String msg;
     private String user;
 
-    public HiVo(final String msg, final String user) {
+    public HelloVo(final String msg, final String user) {
         this.msg = msg;
         this.user = user;
     }

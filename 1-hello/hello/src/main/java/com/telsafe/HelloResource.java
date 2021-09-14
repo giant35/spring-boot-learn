@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hello")
 public class HelloResource {
     @GetMapping("/{name}")
-    public HiVo sayHi(@PathVariable(name = "name") String aname) {
-        return new HiVo("你好o", aname);
+    public HelloVo sayHello(@PathVariable(name = "name") String aname) {
+        return new HelloVo("你好o", aname);
     }
 }
