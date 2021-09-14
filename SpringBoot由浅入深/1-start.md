@@ -11,6 +11,8 @@ SpringBoot是一个内嵌Web容器（tomcat/jetty）的可执行程序(jar)的�
 你在开发web应用程序的时候，不需要将项目打成war包部署到web容器中。而是作为一个可执行的程序jar即可。
 启动的时候把web服务器配置好，加载起来即可运行。
 
+<del>
+
 ### 传统的spring项目存在的问题
 
 - 大量的xml文件，配置相当繁琐
@@ -19,6 +21,8 @@ SpringBoot是一个内嵌Web容器（tomcat/jetty）的可执行程序(jar)的�
 - 依赖外部的web服务器
 - 日志管理需要依赖
 - 一堆的依赖在maven中pom.xml中
+
+</del>
 
 ### springboot解决了什么问题
 
@@ -40,6 +44,7 @@ https://docs.spring.io/spring-boot/docs/2.4.6/reference/htmlsingle/
 ## 01、目标
 
 快速构建一个springboot项目
+【补充】https://spring.io/guides/gs/rest-service/
 
 ## 02、步骤
 
