@@ -1,19 +1,23 @@
 package com.telsafe;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author tangfh
  * @date 2021/9/14
  */
 @RestController
-@RequestMapping(name = "/hello")//可选
+@RequestMapping(path = "/hello")//可选
 public class HelloResource {
     @GetMapping("/{name}")
     public HelloVo sayHello(@PathVariable(name = "name") String aname) {
         return new HelloVo("你好o", aname);
     }
+
+    @GetMapping("/{name}/sayHello2")
+    //@ResponseBody
+    public String sayHello2(@PathVariable(name = "name") String aname) {
+        return "你好吗？" + aname;
+    }
+
 }
