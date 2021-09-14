@@ -1,0 +1,3 @@
+app:
+  key: "aaaa"
+server.port: 9000
