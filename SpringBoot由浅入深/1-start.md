@@ -43,7 +43,7 @@ https://docs.spring.io/spring-boot/docs/2.4.6/reference/htmlsingle/
 
 ## 01、目标
 
-快速构建一个springboot项目
+快速构建一个springboot项目  
 【补充】https://spring.io/guides/gs/rest-service/
 
 ## 02、步骤
@@ -106,7 +106,7 @@ public class KuangstudyBootApplication {
 }
 ```
 
-#### 静态资源处理
+#### 
 
 - staitc：存放静态资源css/js/images/fonts
 - templates：freemarker或者thymeleaf存放模板html页面的位置

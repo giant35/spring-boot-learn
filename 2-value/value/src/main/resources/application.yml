@@ -1,0 +1,10 @@
+app:
+  key: "resafdsf"
+  urls:
+    - "http://baidu.com/1.jpg"
+    - "http://baidu.com/2.jpg"
+    - "http://baidu.com/3.jpg"
+  misc:
+    a: 一
+    b: 二
+server.port: 8888

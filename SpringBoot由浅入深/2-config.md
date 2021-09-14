@@ -22,8 +22,8 @@ server.port=9999
 #随机端口server.port=${random.int[8080,8999]}
 ```
 
-随机端口的好处就是：
-1：如果在同一台服务器上多个服务如果用同一个端口会造成端口冲突
+随机端口的好处就是：  
+1：如果在同一台服务器上多个服务如果用同一个端口会造成端口冲突  
 2：在微服务项目和开发中，开发人员是不会去记住ip和端口的。我们一般在真实的开发环境下，设置一个随机端口，就不用去管理端口了。也不会造成端口的冲突。
 
 
@@ -32,7 +32,6 @@ server.port=9999
 
 # 五、SpringBoot中yml配置说明
 
-[![img](.\images.assets\132.jpeg) 学相伴-飞哥 ](https://www.kuangstudy.com/user/aaa284f6f98146d4a927e0d42dacb01b) 分类：[学习笔记](https://www.kuangstudy.com/bbs?cid=4) 创建时间：2021/06/01 16:56 [字体](javascript:void(0);) [皮肤](javascript:void(0);)最后修改于： 2021/06/01 19:40
 
 ## 01、目标
 
@@ -75,7 +74,7 @@ http://localhost:9999/value
 
 # 六、自定义配置&@Value注入属性
 
-[![img](.\images.assets\132.jpeg) 学相伴-飞哥 ](https://www.kuangstudy.com/user/aaa284f6f98146d4a927e0d42dacb01b) 分类：[学习笔记](https://www.kuangstudy.com/bbs?cid=4) 创建时间：2021/06/13 13:25 [字体](javascript:void(0);) [皮肤](javascript:void(0);)最后修改于： 2021/06/13 13:30
+ 创建时间：2021/06/13 13:25 [字体](javascript:void(0);) [皮肤](javascript:void(0);)最后修改于： 2021/06/13 13:30
 
 ## 01、目标
 
@@ -284,3 +283,7 @@ public class AlipayProperties {
 ```
 ##访问http://localhost:9999/value2##结果如下：AlipayProperties{appid='wx2e43sdf23433231111', email='xuchengfeifei@163.com', key='12352342', mcid='1823923932'}
 ```
+
+
+# 【补充】 Profile
+不同环境不同配置

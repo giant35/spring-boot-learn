@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2021/9/14
  */
 @RestController
-@RequestMapping("/hello")
+@RequestMapping(name = "/hello")//可选
 public class HelloResource {
     @GetMapping("/{name}")
     public HelloVo sayHello(@PathVariable(name = "name") String aname) {

@@ -68,7 +68,7 @@ public class Book {
 
 # 九、SpringBoot日志存储路径和设置日志格式
 
-[![img](.\images.assets\132.jpeg) 学相伴-飞哥 ](https://www.kuangstudy.com/user/aaa284f6f98146d4a927e0d42dacb01b) 分类：[学习笔记](https://www.kuangstudy.com/bbs?cid=4) 创建时间：2021/05/19 00:02 [字体](javascript:void(0);) [皮肤](javascript:void(0);)最后修改于： 2021/06/25 14:21
+ 创建时间：2021/05/19 00:02 [字体](javascript:void(0);) [皮肤](javascript:void(0);)最后修改于： 2021/06/25 14:21
 
 ## 01、目标
 

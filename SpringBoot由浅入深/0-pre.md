@@ -19,6 +19,7 @@
 * 五、SpringBoot中yml配置说明
 * 六、自定义配置&@Value注入属性
 * 七、@ConfigurationProperties注入属性
+* 【补充】 Profile
 
 
 ----
