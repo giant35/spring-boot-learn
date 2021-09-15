@@ -33,7 +33,8 @@
 
 ## [第四篇 swagger 配置](4-swagger.md)
 * 【删】 十一、SpringBoot和在线文档Swagger的整合
-* 【补充】新的 Swagger 整合方式
+* 【补充】新的 Swagger 整合方式 https://github.com/springfox/springfox
+
 
 ## [第五篇 统一处理返回与验证](5-advise-validate.md)
 * 十二、SpringBoot统一接口返回的标准格式R.java
