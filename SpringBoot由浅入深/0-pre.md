@@ -32,7 +32,7 @@
 * 十、SpringBoot中的异步处理框架@Async
 
 ## [第四篇 swagger 配置](4-swagger.md)
-* 十一、SpringBoot和在线文档Swagger的整合
+* 【删】 十一、SpringBoot和在线文档Swagger的整合
 * 【补充】新的 Swagger 整合方式
 
 ## [第五篇 统一处理返回与验证](5-advise-validate.md)
