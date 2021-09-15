@@ -7,7 +7,6 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-@ApiModel(description = "待办事项")
 /**
  * @author tangfh
  * @date 2021/9/14
@@ -16,8 +15,9 @@ import lombok.NoArgsConstructor;
 @EqualsAndHashCode(of = "id")
 @NoArgsConstructor
 @AllArgsConstructor
+@ApiModel(description = "待办事项")
 public class Todo {
-    @ApiModelProperty("idddd")
+    @ApiModelProperty("id 标识")//TODO:!!!
     private Integer id;
     private String note;
     private Boolean done;
