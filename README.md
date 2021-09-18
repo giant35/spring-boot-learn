@@ -18,6 +18,7 @@
 ## 更多参考
 * IDE :  IntelliJ IDEA (可用免费的 Community 版本  https://www.jetbrains.com/idea/download/#section=windows )
 * JDK : 建议 OpenJDK 11.x ( https://jdk.java.net/archive/ )
+* 廖雪峰 Java教程 https://www.liaoxuefeng.com/wiki/1252599548343744
 * Java 入门书籍推荐 《Effective Java 中文版》
 * Spring 入门书籍推荐 《Spring in action 中文版第5版》 （由于更新比较快，注意不要太老的版本）
 
