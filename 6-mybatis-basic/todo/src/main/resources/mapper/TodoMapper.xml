@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.telsafe.mapper.TodoMapper">
+    <resultMap id="m1" type="com.telsafe.TodoEntity">
+        <result column="id" property="id"/>
+        <result column="note" property="note"/>
+        <result column="done" property="done"/>
+        <result column="create_at" property="createAt"/>
+    </resultMap>
+    <insert id="insert" useGeneratedKeys="true" parameterType="com.telsafe.TodoEntity" keyProperty="id" keyColumn="id">
+        insert into todo(note,done,create_at) value (#{note},#{done},#{createAt})
+    </insert>
+    <update id="update" parameterType="com.telsafe.TodoEntity">
+        update todo
+        set
+        note = #{note},
+        done = #{done}
+        where id = #{id}
+    </update>
+    <delete id="delete" parameterType="int">
+        delete from todo where id = #{id}
+    </delete>
+    <select id="get" parameterType="int" resultMap="m1">
+        select * from todo where id = #{id}
+    </select>
+    <select id="select" resultType="com.telsafe.TodoEntity">
+        select * from todo
+        <where>
+            <if test="null != done">
+                done = #{done}
+            </if>
+        </where>
+        limit #{offset},#{limit}
+    </select>
+</mapper>

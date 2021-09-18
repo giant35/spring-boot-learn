@@ -12,7 +12,14 @@
 * 二、使用SpringBoot快速搭建一个单体架构
 * 三、SpringBoot项目搭建说明&starter机制
 * 【补充】演示 1-hello
+  1. 创建过程
+  1. 项目分析 @GetMapping @RestController
+  1. devtools
+  1. debugger thread stack
+  1. 打包 
 * 【补充】演示 1-todo
+    1. 更多注解
+    1. 单元测试
 
 ## [第二篇 配置](2-config.md)
 * 四、SpringBoot常见配置说明
@@ -20,6 +27,8 @@
 * 六、自定义配置&@Value注入属性
 * 七、@ConfigurationProperties注入属性
 * 【补充】 Profile
+
+!!! D1问卷
 
 
 ----
