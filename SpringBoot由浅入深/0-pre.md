@@ -64,6 +64,8 @@ https://www.kuangstudy.com
 
 ## [第六篇 mybatis 访问数据库](6-mybatis.md)
 * 十六、SpringBoot快速整合Mybatis&MybatisPlus
+* mybatis 参考 https://mybatis.org/mybatis-3/zh/index.html  
+* mybatis-plus 参考 https://baomidou.com/  
 
 ## [第七篇 事件](7-event.md)
 * 二十五、Spring实战系列（一）-监听器模式开发
