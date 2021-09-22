@@ -8,4 +8,7 @@ app:
   misc:
     a: 一
     b: 二
+  baidu:
+    key: aa
+    secret: abbb
 server.port: 8888

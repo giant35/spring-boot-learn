@@ -20,8 +20,11 @@ public class DiagResource {
     @Autowired
     private AppCfg2 appCfg2;
 
+
     @GetMapping
     public Map<String, Object> sys() {
+
+        //appCfg2.getBaidu().getKey();
         return Map.of("port", port, "appCfg2", appCfg2);
     }
 }

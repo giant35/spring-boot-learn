@@ -13,6 +13,7 @@ import java.util.Map;
 public class AppCfg2 {
     List<String> urls;
     Map<String, Object> misc;
+    Baidu baidu;
 
     public List<String> getUrls() {
         return urls;
@@ -28,5 +29,13 @@ public class AppCfg2 {
 
     public void setMisc(final Map<String, Object> misc) {
         this.misc = misc;
+    }
+
+    public Baidu getBaidu() {
+        return baidu;
+    }
+
+    public void setBaidu(Baidu baidu) {
+        this.baidu = baidu;
     }
 }

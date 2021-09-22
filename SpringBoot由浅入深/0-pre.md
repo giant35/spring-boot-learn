@@ -7,19 +7,24 @@
 ---
 # D1
 
+
+* 培训简介 目标 / 过程 / 材料目录 
+* 名词简介 IntelliJ Idea （IDE) / Maven (jar依赖管理) / .jar .war / Spring / Spring Boot (spring.io)
+
 ## [第一篇 基本项目创建及常见注解解析](1-start.md)
 * 一、为什么选择SpringBoot
 * 二、使用SpringBoot快速搭建一个单体架构
 * 三、SpringBoot项目搭建说明&starter机制
 * 【补充】演示 1-hello
-  1. 创建过程
+  1. 创建过程 https://start.spring.io 
   1. 项目分析 @GetMapping @RestController
+* 【补充】演示 1-todo
+  1. 更多注解
+  1. 单元测试
+* 【补充】
   1. devtools
   1. debugger thread stack
   1. 打包 
-* 【补充】演示 1-todo
-    1. 更多注解
-    1. 单元测试
 
 ## [第二篇 配置](2-config.md)
 * 四、SpringBoot常见配置说明
@@ -29,6 +34,9 @@
 * 【补充】 Profile
 
 !!! D1问卷
+
+## 参考
+https://www.kuangstudy.com
 
 
 ----
