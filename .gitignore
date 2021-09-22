@@ -4,3 +4,7 @@ target/
 dist/
 
 *.iml
+.classpath
+.project
+.settings/
+.factorypath
